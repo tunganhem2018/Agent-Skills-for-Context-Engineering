@@ -38,7 +38,15 @@ These skills address the ongoing operation and optimization of agent systems.
 |-------|-------------|
 | [context-optimization](skills/context-optimization/) | Apply compaction, masking, and caching strategies |
 | [evaluation](skills/evaluation/) | Build evaluation frameworks for agent systems |
-| [advanced-evaluation](skills/advanced-evaluation/) | **NEW** Master LLM-as-a-Judge techniques: direct scoring, pairwise comparison, rubric generation, and bias mitigation |
+| [advanced-evaluation](skills/advanced-evaluation/) | Master LLM-as-a-Judge techniques: direct scoring, pairwise comparison, rubric generation, and bias mitigation |
+
+### Development Methodology
+
+These skills cover the meta-level practices for building LLM-powered projects.
+
+| Skill | Description |
+|-------|-------------|
+| [project-development](skills/project-development/) | **NEW** Design and build LLM projects from ideation through deployment, including task-model fit analysis, pipeline architecture, and structured output design |
 
 ## Design Philosophy
 

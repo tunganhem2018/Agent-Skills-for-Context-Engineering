@@ -49,6 +49,11 @@ Techniques include compaction (summarizing context near limits), observation mas
 **Evaluation Frameworks**
 Production agent evaluation requires multi-dimensional rubrics covering factual accuracy, completeness, tool efficiency, and process quality. Effective patterns include LLM-as-judge for scalability, human evaluation for edge cases, and end-state evaluation for agents that mutate persistent state.
 
+### Development Methodology
+
+**Project Development**
+Effective LLM project development begins with task-model fit analysis: validating through manual prototyping that a task is well-suited for LLM processing before building automation. Production pipelines follow staged, idempotent architectures (acquire, prepare, process, parse, render) with file system state management for debugging and caching. Structured output design with explicit format specifications enables reliable parsing. Start with minimal architecture and add complexity only when proven necessary.
+
 ## Core Concepts
 
 The collection is organized around three core themes. First, context fundamentals establish what context is, how attention mechanisms work, and why context quality matters more than quantity. Second, architectural patterns cover the structures and coordination mechanisms that enable effective agent systems. Third, operational excellence addresses the ongoing work of optimizing and evaluating production systems.
@@ -74,6 +79,7 @@ Internal skills in this collection:
 - [tool-design](skills/tool-design/SKILL.md)
 - [context-optimization](skills/context-optimization/SKILL.md)
 - [evaluation](skills/evaluation/SKILL.md)
+- [project-development](skills/project-development/SKILL.md)
 
 External resources on context engineering:
 - Research on attention mechanisms and context window limitations
@@ -85,6 +91,6 @@ External resources on context engineering:
 ## Skill Metadata
 
 **Created**: 2025-12-20
-**Last Updated**: 2025-12-21
+**Last Updated**: 2025-12-25
 **Author**: Agent Skills for Context Engineering Contributors
-**Version**: 1.1.0
+**Version**: 1.2.0
